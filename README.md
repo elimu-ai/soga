@@ -31,7 +31,7 @@
 - ...
 
 **Why Soga?**
-- Soga addresses the need for elevating education globally. Currently, [10%](https://www.unesco.org/en/articles/250-million-children-out-school-what-you-need-know-about-unescos-latest-education-data) of children worldwide are not in school. And there simply aren't enough teachers, so creating an AI chat application can help alleviate this need.
+- Soga addresses the need for elevating education globally. Currently, [10%](https://www.unesco.org/en/articles/250-million-children-out-school-what-you-need-know-about-unescos-latest-education-data) of children worldwide are not in school. And there simply aren't enough teachers available for these 64 million children, so creating an AI chat application can help ensure a world of equal opportunities.
 
 ---
 
