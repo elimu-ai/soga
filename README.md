@@ -1,8 +1,8 @@
-# ai-for-humanity-hackathon-2024
+# Soga
 
-🔥 Burning Heroes - AI For Humanity Hackathon 2024
+> “Unlocking Learning, One Chat at a Time!” 🌟📚🗣️
 
-https://www.burningheroes.com/2024/hackathon
+🔥 Burning Heroes - [AI For Humanity Hackathon 2024](https://www.burningheroes.com/2024/hackathon)
 
 ## Demo
 
@@ -33,7 +33,7 @@ https://www.burningheroes.com/2024/hackathon
 
 ---
 
-URL to Code Repository: https://github.com/elimu-ai/ai-for-humanity-hackathon-2024
+URL to Code Repository: https://github.com/elimu-ai/soga
 
 Video Demo: https://www.youtube.com/watch?v=...
 
