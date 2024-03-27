@@ -1,5 +1,7 @@
 # Soga - LLM chat application for out-of-school children
 
+![](https://th.bing.com/th/id/OIG3.kqwzz_AXN2XSi3K..03C?w=173&h=173&c=6&r=0&o=5&dpr=2.4&pid=ImgGn)
+
 > “Unlocking Learning, One Chat at a Time!” 🌟📚🗣️
 
 🔥 Burning Heroes - [AI For Humanity Hackathon 2024](https://www.burningheroes.com/2024/hackathon)
