@@ -1,4 +1,4 @@
-# Soga
+# Soga - LLM chat application for out-of-school children
 
 > “Unlocking Learning, One Chat at a Time!” 🌟📚🗣️
 
@@ -18,7 +18,7 @@
 - Soga
 
 **Project tagline**
-- Soga - LLM chat application for out-of-school children
+- LLM chat application for out-of-school children
 
 **Introduction**
 - ...
