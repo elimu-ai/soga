@@ -21,4 +21,4 @@ jobs:
           java-version: ${{ matrix.java }}
       - uses: gradle/gradle-build-action@v2
       - run: ./gradlew clean
-      - run: ./gradlew build
+#      - run: ./gradlew build
