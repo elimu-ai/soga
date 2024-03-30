@@ -1,4 +1,4 @@
-package com.google.ai.soga.feature.chat
+package ai.elimu.soga.feature.chat
 
 import java.util.UUID
 

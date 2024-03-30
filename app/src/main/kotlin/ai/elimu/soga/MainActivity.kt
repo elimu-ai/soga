@@ -1,4 +1,4 @@
-package com.google.ai.soga
+package ai.elimu.soga
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,8 +10,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.google.ai.soga.feature.chat.ChatRoute
-import com.google.ai.soga.ui.theme.GenerativeAISample
+import ai.elimu.soga.feature.chat.ChatRoute
+import ai.elimu.soga.ui.theme.GenerativeAISample
 
 class MainActivity : ComponentActivity() {
 

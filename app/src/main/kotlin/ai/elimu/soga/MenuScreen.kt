@@ -1,4 +1,4 @@
-package com.google.ai.soga
+package ai.elimu.soga
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

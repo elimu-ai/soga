@@ -1,4 +1,4 @@
-package com.google.ai.soga.util
+package ai.elimu.soga.util
 
 import android.net.Uri
 import androidx.compose.runtime.saveable.Saver

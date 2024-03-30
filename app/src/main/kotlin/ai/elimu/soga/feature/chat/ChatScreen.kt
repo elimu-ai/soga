@@ -1,4 +1,4 @@
-package com.google.ai.soga.feature.chat
+package ai.elimu.soga.feature.chat
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
@@ -38,8 +38,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.google.ai.soga.GenerativeViewModelFactory
-import com.google.ai.soga.R
+import ai.elimu.soga.GenerativeViewModelFactory
+import ai.elimu.soga.R
 import kotlinx.coroutines.launch
 
 @Composable

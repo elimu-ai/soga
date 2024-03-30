@@ -1,11 +1,11 @@
-package com.google.ai.soga
+package ai.elimu.soga
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.CreationExtras
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.generationConfig
-import com.google.ai.soga.feature.chat.ChatViewModel
+import ai.elimu.soga.feature.chat.ChatViewModel
 
 val GenerativeViewModelFactory = object : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(

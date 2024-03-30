@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.google.ai.soga"
+    namespace = "ai.elimu.soga"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.google.ai.soga"
+        applicationId = "ai.elimu.soga"
         minSdk = 26
         targetSdk = 34
         versionCode = 1000000
