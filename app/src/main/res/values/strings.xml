@@ -10,4 +10,7 @@
     <!-- Chat sample strings -->
     <string name="chat_label">Message</string>
     <string name="action_send">Send</string>
+
+    <!-- Image description -->
+    <string name="nya_avatar_descritpion">Nya looking at something</string>
 </resources>
