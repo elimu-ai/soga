@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Soga</string>
+    <string name="app_name">Soga 🌟📚🗣️</string>
     <string name="action_go">Go</string>
     <string name="action_try">Try it</string>
 
     <!-- Menu strings -->
-    <string name="menu_chat_title">Chat</string>
-    <string name="menu_chat_description">Chat with your AI tutor</string>
+    <string name="menu_chat_title">Chat with your AI tutor</string>
+    <string name="menu_chat_description"> “Unlocking Learning, One Chat at a Time!” 🌟📚🗣️</string>
 
     <!-- Chat sample strings -->
     <string name="chat_label">Message</string>

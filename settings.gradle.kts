@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "soga"
+rootProject.name = "Soga"
 include(":app")
