@@ -1,4 +1,4 @@
-package ai.elimu.soga.ui.theme
+package com.google.ai.soga.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -12,6 +12,15 @@
 
 ## Code
 
+### Build
+
+Set `apiKey=<value>` in `local.properties`
+
+```
+./gradlew clean
+./gradlew build
+```
+
 ...
 
 ## Submission Details
