@@ -40,7 +40,13 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import ai.elimu.soga.GenerativeViewModelFactory
 import ai.elimu.soga.R
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
 import kotlinx.coroutines.launch
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 
 @Composable
 internal fun ChatRoute(
@@ -118,14 +124,24 @@ fun ChatBubbleItem(
     Column(
         horizontalAlignment = horizontalAlignment,
         modifier = Modifier
-            .padding(horizontal = 8.dp, vertical = 4.dp)
+            .padding(horizontal = 12.dp, vertical = 10.dp)
             .fillMaxWidth()
     ) {
-        Text(
-            text = chatMessage.participant.name,
-            style = MaterialTheme.typography.bodySmall,
-            modifier = Modifier.padding(bottom = 4.dp)
-        )
+//        Text(
+//            text = chatMessage.participant.name,
+//            style = MaterialTheme.typography.bodySmall,
+//            modifier = Modifier.padding(bottom = 4.dp)
+//        )
+        if (isModelMessage) {
+            Image(
+                painter = painterResource(id = R.drawable.nya),
+                contentDescription = stringResource(id = R.string.nya_avatar_descritpion),
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(50.dp)
+                    .clip(CircleShape)
+            )
+        }
         Row {
             if (chatMessage.isPending) {
                 CircularProgressIndicator(
@@ -138,11 +154,11 @@ fun ChatBubbleItem(
                 Card(
                     colors = CardDefaults.cardColors(containerColor = backgroundColor),
                     shape = bubbleShape,
-                    modifier = Modifier.widthIn(0.dp, maxWidth * 0.9f)
+                    modifier = Modifier.widthIn(0.dp, maxWidth * 2.9f)
                 ) {
                     Text(
                         text = chatMessage.text,
-                        modifier = Modifier.padding(16.dp)
+                        modifier = Modifier.padding(20.dp)
                     )
                 }
             }
@@ -192,7 +208,7 @@ fun MessageInput(
                     .fillMaxWidth()
                     .weight(0.15f)
             ) {
-                Icon(
+               Icon(
                     Icons.Default.Send,
                     contentDescription = stringResource(R.string.action_send),
                     modifier = Modifier
