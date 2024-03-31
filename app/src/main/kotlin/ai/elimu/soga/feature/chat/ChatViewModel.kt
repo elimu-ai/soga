@@ -46,6 +46,8 @@ class ChatViewModel(
             )
         )
 
+
+
         viewModelScope.launch {
             try {
                 val response = chat.sendMessage(userMessage)
@@ -60,7 +62,7 @@ class ChatViewModel(
                             isPending = false
                         )
                     )
-                    if (modelResponse.contains("hhvhv") || modelResponse.contains("there") || modelResponse.contains("Correct")) { pointCounter += 0.1f }
+                    if (modelResponse.contains("\uD83C\uDF1F") || modelResponse.contains("correct") || modelResponse.contains("Correct")) { pointCounter += 0.1f }
                 }
             } catch (e: Exception) {
                 _uiState.value.replaceLastPendingMessage()
