@@ -8,7 +8,9 @@
 
 ## Demo
 
-...
+<img src="https://github.com/elimu-ai/soga/assets/1451036/7ec748e3-ec92-4697-a8e9-8e5bc800733b" width="640" />
+
+APK: https://github.com/elimu-ai/soga/releases/tag/1.0.0
 
 ## Code
 
@@ -20,8 +22,6 @@ Set `apiKey=<value>` in `local.properties`
 ./gradlew clean
 ./gradlew build
 ```
-
-...
 
 ## Submission Details
 
@@ -35,13 +35,13 @@ Set `apiKey=<value>` in `local.properties`
 
 **Introduction**
 
-- ...
+- Mobile devices are soon getting powerful enough to run entire LLMs locally, and we can take advantage of that to make basic education more widely accessible.
 
 **Key Features**
 
-– ...
-- ...
-- ...
+– App that can run on any Android device (phone, tablet, etc)
+- AI tutor that helps students learn basic math concepts (e.g. addition and subtraction)
+- Conversational chat format
 
 **Why Soga?**
 
@@ -51,8 +51,10 @@ Set `apiKey=<value>` in `local.properties`
 
 URL to Code Repository: https://github.com/elimu-ai/soga
 
-Video Demo: https://www.youtube.com/watch?v=...
+Presentation video: https://www.youtube.com/watch?v=...
 
-Submitter Type: Team, @..., @..., @...
+Presentation slides: https://docs.google.com/presentation/d/1Bbq0pyYk49qddSkYNHj2UI1A5pBqs4XzwPPW_CpDe0k/edit?usp=sharing
+
+Submitter Type: Team, @saharulik, @jo-elimu
 
 Category: AI in Education
