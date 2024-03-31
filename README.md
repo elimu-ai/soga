@@ -51,7 +51,7 @@ Set `apiKey=<value>` in `local.properties`
 
 URL to Code Repository: https://github.com/elimu-ai/soga
 
-Presentation & demo video: https://drive.google.com/file/d/1XebSZJuTTfX_RZk7OzE0dfePcZ-ZlStR/view?usp=sharing
+Demo video: https://drive.google.com/file/d/1XebSZJuTTfX_RZk7OzE0dfePcZ-ZlStR/view?usp=sharing
 
 Presentation slides: https://docs.google.com/presentation/d/1Bbq0pyYk49qddSkYNHj2UI1A5pBqs4XzwPPW_CpDe0k/edit?usp=sharing
 
