@@ -13,6 +13,9 @@ import kotlinx.coroutines.launch
 class ChatViewModel(
     generativeModel: GenerativeModel
 ) : ViewModel() {
+
+    var pointCounter = 0.0f;
+
     private val chat = generativeModel.startChat(
         history = listOf(
             content(role = "user") { text("You'll act as a friendly tutor who helps 6-year-old children learn basic math. Use emojis when you create word problems. Your name is Nya.") },
@@ -57,6 +60,7 @@ class ChatViewModel(
                             isPending = false
                         )
                     )
+                    if (modelResponse.contains("hhvhv") || modelResponse.contains("there") || modelResponse.contains("Correct")) { pointCounter += 0.1f }
                 }
             } catch (e: Exception) {
                 _uiState.value.replaceLastPendingMessage()
