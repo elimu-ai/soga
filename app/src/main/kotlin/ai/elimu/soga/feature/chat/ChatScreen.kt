@@ -41,6 +41,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import ai.elimu.soga.GenerativeViewModelFactory
 import ai.elimu.soga.R
 import ai.elimu.soga.ui.theme.Gold80
+import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
@@ -58,12 +59,15 @@ import androidx.compose.ui.res.painterResource
 internal fun ChatRoute(
     chatViewModel: ChatViewModel = viewModel(factory = GenerativeViewModelFactory)
 ) {
+    Log.i("Mytag","ChatRoute")
     val chatUiState by chatViewModel.uiState.collectAsState()
     val listState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
 
+
     Scaffold(
         topBar = {
+          //  backgroundColor="transparent"
             LinearProgressIndicator(
                 progress = chatViewModel.pointCounter,
                 modifier = Modifier.height(30.dp).fillMaxWidth().padding(10.dp,0.dp),

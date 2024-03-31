@@ -1,5 +1,6 @@
 package ai.elimu.soga.feature.chat
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.ai.client.generativeai.GenerativeModel
@@ -54,6 +55,8 @@ class ChatViewModel(
 
                 _uiState.value.replaceLastPendingMessage()
 
+                Log.i("NumberGenerated","Number 2")
+
                 response.text?.let { modelResponse ->
                     _uiState.value.addMessage(
                         ChatMessage(
@@ -62,7 +65,8 @@ class ChatViewModel(
                             isPending = false
                         )
                     )
-                    if (modelResponse.contains("\uD83C\uDF1F") || modelResponse.contains("correct") || modelResponse.contains("Correct")) { pointCounter += 0.1f }
+                    if (modelResponse.contains("\uD83C\uDF1F") || modelResponse.contains("Nya") || modelResponse.contains("Correct") || modelResponse.contains("that's right") || modelResponse.contains("fantastic")) { pointCounter += 0.1f
+                        Log.i("Mytag","viewModelScope") }
                 }
             } catch (e: Exception) {
                 _uiState.value.replaceLastPendingMessage()
